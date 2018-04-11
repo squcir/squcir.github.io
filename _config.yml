@@ -1,10 +1,11 @@
 # Jekyll configuration
 
-name: Xixia
-description: Welcome to Xixia！
+name: squcir
+description: Welcome to squcir！ 
+
 
 # url is currently only used only for the RSS feed in feed.xml
-url: https://github.com/zxixia/jekyll-xixia
+url: https://github.com/squcir
 
 # baseurl will often be '', but for a project page on gh-pages, it needs to
 # be the project name.
@@ -18,7 +19,7 @@ date_format:
   categories: "%b-%Y"
   tag: "%b-%Y"
 # Language
-lan: "en" 
+lan: "cn" 
 
 paginate: 10
 
