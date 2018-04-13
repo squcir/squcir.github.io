@@ -1,0 +1,7 @@
+---
+layout: post
+title:  "c语言笔记_c和指针"
+date:   2018-04-13
+categories: c
+tags: c
+---
