@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>squcir</title>
+		<description>Welcome to squcir！</description>
+		<link>https://github.com/squcir</link>
+		<atom:link href="https://github.com/squcir/feed.xml" rel="self" type="application/rss+xml" />
+		
+			<item>
+				<title>c语言笔记_c和指针</title>
+				<description>&lt;h3 id=&quot;7函数&quot;&gt;7.函数&lt;/h3&gt;
+
+&lt;p&gt;1、一个没有参数的函数原型应该写成如下形式：
+&lt;br /&gt;&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;int *func(void)
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;而不应该写成如下形式（这个声明会被解释成旧式风格的声明，致使：1）在使用函数func时编译器无法进行类型检测；2）缺省参数提升）：&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;int *func();
+
+int *func(array, len) //array和len不可缺少
+int *array;
+int len;
+{
+	
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+</description>
+				<pubDate>Fri, 13 Apr 2018 00:00:00 +0800</pubDate>
+				<link>https://github.com/squcir/c/2018/04/13/c-page-2.html</link>
+				<guid isPermaLink="true">https://github.com/squcir/c/2018/04/13/c-page-2.html</guid>
+			</item>
+		
+			<item>
+				<title>搭建博客遇到的问题</title>
+				<description>&lt;p&gt;1、使用jekyll-paginate插件，无法正常工作&lt;/p&gt;
+
+&lt;p&gt;保证Gemfile中声明&lt;a href=&quot;https://github.com/squcir/squcir.github.io/blob/dev/Gemfile#L23&quot;&gt;jekyll-paginate&lt;/a&gt;及_config.yml中定义&lt;a href=&quot;https://github.com/squcir/squcir.github.io/blob/dev/_config.yml#L24&quot;&gt;paginate&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;2、关于github pages无法使用jekyll插件&lt;/p&gt;
+
+&lt;p&gt;所有Pages通过 –safe选项禁用了插件，若你的网站部署在Github Pages，那么你的插件不会工作。不过仍有办法发布到Github Pages，只需要将本地编译好的文件上传到Github就可以了：&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;编译生成 _site 目录：jekyll build –safe&lt;/li&gt;
+  &lt;li&gt;将 _site 目录下文件上传至master/gh-pages分支（可参考脚本 &lt;a href=&quot;https://github.com/squcir/squcir.github.io/blob/dev/deployed.sh&quot;&gt;deployed.sh&lt;/a&gt;）&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+				<pubDate>Thu, 12 Apr 2018 00:00:00 +0800</pubDate>
+				<link>https://github.com/squcir/jekyll/2018/04/12/jekyll-page-1.html</link>
+				<guid isPermaLink="true">https://github.com/squcir/jekyll/2018/04/12/jekyll-page-1.html</guid>
+			</item>
+		
+	</channel>
+</rss>
