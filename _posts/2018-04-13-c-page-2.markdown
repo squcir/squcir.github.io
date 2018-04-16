@@ -5,3 +5,23 @@ date:   2018-04-13
 categories: c
 tags: c
 ---
+
+### 7.函数
+
+
+1、一个没有参数的函数原型应该写成如下形式：
+<br/>
+```
+int *func(void)
+```
+而不应该写成如下形式（这个声明会被解释成旧式风格的声明，致使：1）在使用函数func时编译器无法进行类型检测；2）缺省参数提升）：
+```
+int *func();
+
+int *func(array, len) //array和len不可缺少
+int *array;
+int len;
+{
+	
+}
+```
